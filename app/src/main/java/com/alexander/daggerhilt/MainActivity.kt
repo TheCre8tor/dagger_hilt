@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             DaggerHiltTheme {
-                val viewModel = viewModel<MyViewModel>()
+//                val viewModel = viewModel<MyViewModel>()
 
                 // A surface container using the 'background' color from the theme
                 Surface(
